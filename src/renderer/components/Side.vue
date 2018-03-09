@@ -15,7 +15,23 @@
           {
             id:0,
             text:'Discover'
-          }
+          },
+            {
+                id:2,
+                text:'FM'
+            },
+            {
+                id:3,
+                text:'MV'
+            },
+            {
+                id:4,
+                text:'Local'
+            },
+            {
+                id:5,
+                text:'Download'
+            }
         ]
       }
     }
@@ -23,7 +39,11 @@
 </script>
 
 <style scoped>
-#side {
-
+    #side ul{
+        padding: 4px 0;
+    }
+   #side li{
+    height: 40px;
+    padding: 0 16px;
 }
 </style>

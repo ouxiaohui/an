@@ -20,6 +20,9 @@
   * {
     box-sizing: border-box;
   }
+  html{
+      font-family: sans-serif;
+  }
   body{
     color: #fff;
     background-color: #232323;
@@ -33,7 +36,9 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-
+  ul{
+      padding-left: 0;
+  }
   li {
     list-style: none;
   }
